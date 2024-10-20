@@ -1,0 +1,41 @@
+{
+    "format_version": 2,
+    "header": {
+      "name": "KPW discord user",
+      "description": "",
+      "version": [1, 0, 0],
+      "uuid": "e4459dd8-023e-44aa-be59-da5940a03d86",
+      "min_engine_version": [1, 21, 30]
+    },
+    "modules": [
+      {
+        "type": "data",
+        "description": "",
+        "version": [1, 0, 0],
+        "uuid": "f09f456a-7568-4d4e-bb87-c2d6db80dddc"
+      },
+      {
+        "type": "script",
+        "description": "",
+        "version": [1, 0, 0],
+        "uuid": "163d0802-1000-40f0-a16d-50b4ab11fe3f",
+        "language": "javascript",
+        "entry": "scripts/index.js"
+      }
+    ],
+    "dependencies": [
+      {
+        "module_name": "@minecraft/server",
+        "version": "2.0.0-alpha"
+      },
+      {
+        "module_name": "@minecraft/server-net",
+        "version": "1.0.0-beta"
+      }
+    ],
+    "metadata": {
+      "generated_with": {
+        "TokaTools-Manifest-Generator": ["1.8.0"]
+      }
+    }
+  }
