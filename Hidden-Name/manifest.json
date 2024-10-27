@@ -1,0 +1,37 @@
+{
+    "format_version": 2,
+    "header": {
+      "name": "KPW Hidden Nametag",
+      "description": "",
+      "version": [1, 0, 0],
+      "uuid": "9dedc7fc-2980-4578-a58c-03b353767c4e",
+      "min_engine_version": [1, 21, 30]
+    },
+    "modules": [
+      {
+        "type": "data",
+        "description": "",
+        "version": [1, 0, 0],
+        "uuid": "5fafb690-9cdf-4b98-aa2d-ab06897dd809"
+      },
+      {
+        "type": "script",
+        "description": "",
+        "version": [1, 0, 0],
+        "uuid": "db5f0432-6f32-4da4-be4f-33a994d9ddfc",
+        "language": "javascript",
+        "entry": "scripts/index.js"
+      }
+    ],
+    "dependencies": [
+      {
+        "module_name": "@minecraft/server",
+        "version": "2.0.0-alpha"
+      }
+    ],
+    "metadata": {
+      "generated_with": {
+        "TokaTools-Manifest-Generator": ["1.8.0"]
+      }
+    }
+  }

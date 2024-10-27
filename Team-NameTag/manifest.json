@@ -1,0 +1,37 @@
+{
+    "format_version": 2,
+    "header": {
+      "name": "KPW Team Nametag",
+      "description": "",
+      "version": [1, 0, 0],
+      "uuid": "15c19e73-362b-4e73-b1e6-9b34c41c0785",
+      "min_engine_version": [1, 21, 30]
+    },
+    "modules": [
+      {
+        "type": "data",
+        "description": "",
+        "version": [1, 0, 0],
+        "uuid": "8aad4beb-3438-40e9-ac7b-a44e7c3826a0"
+      },
+      {
+        "type": "script",
+        "description": "",
+        "version": [1, 0, 0],
+        "uuid": "8e37356a-fa3a-4662-9fbe-43f73449c41e",
+        "language": "javascript",
+        "entry": "scripts/index.js"
+      }
+    ],
+    "dependencies": [
+      {
+        "module_name": "@minecraft/server",
+        "version": "2.0.0-alpha"
+      }
+    ],
+    "metadata": {
+      "generated_with": {
+        "TokaTools-Manifest-Generator": ["1.8.0"]
+      }
+    }
+  }
